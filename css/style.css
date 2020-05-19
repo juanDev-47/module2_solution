@@ -1,19 +1,22 @@
 html {
+     background-color: rgba(189, 81, 62, 0.856);
      box-sizing: border-box;
    }
    *, *:before, *:after {
      box-sizing: inherit;
    }
+  
 
    .row {
-        width: 100%;        
+        
+        position: relative;              
    }
 
    /********** Large devices only **********/
 @media (min-width: 992px) {
      .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
        float: left;
-       border: 1px solid green;
+       
      }
      .col-lg-1 {
        width: 8.33%;
@@ -25,7 +28,7 @@ html {
        width: 25%;
      }
      .col-lg-4 {
-       width: 33.33%;
+       width: 30%;
      }
      .col-lg-5 {
        width: 41.66%;
@@ -51,13 +54,14 @@ html {
      .col-lg-12 {
        width: 100%;
      }
+     
    }
 
    /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 819px) and (max-width: 991px) {
      .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-       float: left;
-       border: 1px solid green;
+          float: left;
+       
      }
      .col-md-1 {
        width: 8.33%;
@@ -75,7 +79,7 @@ html {
        width: 41.66%;
      }
      .col-md-6 {
-       width: 50%;
+       width: 47.5%;
      }
      .col-md-7 {
        width: 58.33%;
@@ -93,8 +97,9 @@ html {
        width: 91.66%;
      }
      .col-md-12 {
-       width: 100%;
+       width: 97.3%;
      }
+   
    }
 
    .center {
@@ -102,7 +107,39 @@ html {
    }
 
    .device {
-     border: 2px solid red;
+        position: relative;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: darkgrey;
+        margin: 10px;
+     
    }
+
+   .contenedor {
+        padding: 0;                
+        left: 260px;  
+                    
+   }
+   
+   h2 {
+     float: right;
+     border-left: 2px solid rgb(0, 0, 0);
+     border-bottom: 2px solid rgb(0, 0, 0); 
+     padding: 5px 15px 5px 20px;
+     margin: 0px 0px 0px 1000px;
+     text-align: center;
+     
+   }
+   .color1{
+        background-color: coral;
+   }
+   .color2{
+     background-color: rgb(104, 163, 49);
+     color: azure;
+     }
+     .color3{
+          background-color: rgb(73, 67, 124);
+     }
+
+
 
 
